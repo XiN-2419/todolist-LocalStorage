@@ -1,38 +1,148 @@
-.App {
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, gray, white);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
   text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 20px 0;
+}
+
+form input[type='text'] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ff6f61;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+form select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ff6f61;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+form select:hover {
+  border-color: #ff3b2f;
+  background-color: #ffe6e1;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6f61;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+form button:hover {
+  background-color: #ff3b2f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sortbtn {
+  margin: 0 6px;
+  background-color: blue;
+}
+.sortbtn:hover {
+  background-color: deepskyblue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+li span {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+li input[type='checkbox'] {
+  transform: scale(1.5);
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+li input[type='checkbox']:checked {
+  transform: scale(1.2);
+}
+
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #ff3b2f;
+}
+
+li button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+}
+
+div {
+  padding: 20px;
+}
+
+/* 淡入淡出動畫 */
+li.fade-out {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+li.fade-in {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
