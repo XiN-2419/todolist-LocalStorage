@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Todo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+這是一個基於 React 框架的網頁版待辦事項，提供新增、編輯、刪除、完成標記、依日期排序及依優先順序排序的功能。
 
-## Available Scripts
+## 專案架構
 
-In the project directory, you can run:
+todo-list/
+├── public/               # 靜態資源
+├── src/                  # 源碼
+│   ├── App.js            # 主應用程式
+│   ├── App.css           # 應用程式樣式
+│   ├── index.js          # 入口文件
+├── package.json          # 專案配置
+└── README.md             # 專案說明文件
 
-### `npm start`
+## 功能特色
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **基本功能** : 查看/新增/刪除待辦事項，並可以標記完成/取消標記完成待辦事項
+- **進階功能-設定待辦事項**：輸入待辦事項內容時可以選擇優先順序（普通件、急件、超急件）。
+- **進階功能-編輯待辦事項**：未完成待辦事項可修改內容，已完成待辦事項僅可刪除。
+- **進階功能-排序待辦事項**：
+  - 依日期排序：按新增日期排序。
+  - 依優先順序排序：按優先級（超急件 > 急件 > 普通件）排序。
+- **本地儲存**：透過 `localStorage` 保存待辦事項，重新整理頁面後資料不會丟失。
+- **動畫效果**：勾選或取消勾選時，待辦事項有淡入淡出的動畫效果。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 使用技術
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React**：用於構建使用者介面。
+- **CSS**：用於設計明亮且繽紛的樣式。
+- **localStorage**：用於保存待辦事項資料。
