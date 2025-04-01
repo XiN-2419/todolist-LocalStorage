@@ -4,14 +4,14 @@
 
 ## 專案架構
 
-todo-list/
-├── public/               # 靜態資源
-├── src/                  # 源碼
-│   ├── App.js            # 主應用程式
-│   ├── App.css           # 應用程式樣式
-│   ├── index.js          # 入口文件
-├── package.json          # 專案配置
-└── README.md             # 專案說明文件
+todo-list/  
+├── public/               # 靜態資源  
+├── src/                  # 源碼  
+│   ├── App.js            # 主應用程式  
+│   ├── App.css           # 應用程式樣式  
+│   ├── index.js          # 入口文件  
+├── package.json          # 專案配置  
+└── README.md             # 專案說明文件  
 
 ## 功能特色
 
