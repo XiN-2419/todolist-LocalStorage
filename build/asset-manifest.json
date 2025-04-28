@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/barkingdog-todolist/static/css/main.0ff30b2c.css",
-    "main.js": "/barkingdog-todolist/static/js/main.690095b9.js",
-    "index.html": "/barkingdog-todolist/index.html",
-    "main.0ff30b2c.css.map": "/barkingdog-todolist/static/css/main.0ff30b2c.css.map",
-    "main.690095b9.js.map": "/barkingdog-todolist/static/js/main.690095b9.js.map"
+    "main.css": "/XiN-2419/todolist-LocalStorage/static/css/main.0ff30b2c.css",
+    "main.js": "/XiN-2419/todolist-LocalStorage/static/js/main.690095b9.js",
+    "index.html": "/XiN-2419/todolist-LocalStorage/index.html",
+    "main.0ff30b2c.css.map": "/XiN-2419/todolist-LocalStorage/static/css/main.0ff30b2c.css.map",
+    "main.690095b9.js.map": "/XiN-2419/todolist-LocalStorage/static/js/main.690095b9.js.map"
   },
   "entrypoints": [
     "static/css/main.0ff30b2c.css",
