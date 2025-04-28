@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/barkingdog-todolist/static/css/main.0ff30b2c.css",
+    "main.js": "/barkingdog-todolist/static/js/main.690095b9.js",
+    "index.html": "/barkingdog-todolist/index.html",
+    "main.0ff30b2c.css.map": "/barkingdog-todolist/static/css/main.0ff30b2c.css.map",
+    "main.690095b9.js.map": "/barkingdog-todolist/static/js/main.690095b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ff30b2c.css",
+    "static/js/main.690095b9.js"
+  ]
+}
